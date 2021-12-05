@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lobster&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+nav {
+  margin:0 auto;
+  width:100%;
+  height:auto;
+  display:inline-block;
+  background:black;
+}
+
+nav ul {
+  margin:0;padding:0;
+  list-style-type:none;
+  float:left;
+  display:inline-block;
+}
+
+nav ul li {
+  position:relative;
+  margin:0 20px 0 0;
+  float:left;
+  display:inline-block;
+}
+
+
+nav ul li a {
+  padding:20px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+}
+
+nav ul li a:hover {
+  background-color:orange;
+}
+
+nav ul li ul {
+  display:none;
+  position:absolute;
+  left:0;
+  background:#37bc9b;
+  float:left;
+}
+
+nav ul li ul li {
+  width:100%;
+  border-bottom:1px solid rgba(255,255,255,.3);
+}
+
+nav ul li:hover ul {
+  display:block;
+}
+html {
+  height: 100%;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  .color-text{
+      color: white;
+      background-image: linear-gradient(black,navy,red);
+      text-align: center;
+
+  }
+  
+.about-text{
+  color: white;
+  text:center;
+}
+body {
+    /* background:rgb(150, 226, 28); */
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Lato', Arial, sans-serif;
+    margin:0;
+    padding:0;
+    padding-bottom:60px;
+    line-height:2;
+    background-image: url('pic1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+  }
+ 
+ .header{
+   color:navy;
+   background-image:url('image/pic1.jpg');
+   background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+ }
+ .footer{
+   background-image: linear-gradient(pink,cyan,khaki,yellow,white,royalblue);
+ text-align: center;
+  }
+ 
+  
+ 
+
+  
+     
+  
